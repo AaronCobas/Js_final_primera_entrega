@@ -62,4 +62,4 @@ console.log(usuarios.map(userArray => `${userArray.nombre} - ${userArray.dineroC
 const DINERO_CUENTA = usuarios.map(userArray => userArray.dineroCuenta)
 const DINERO_TOTAL = DINERO_CUENTA.reduce((prev,act) => prev + act, 0)
 console.log(DINERO_TOTAL)
-console.table(usuarios.sort((usr11, usr12) => usr12.dineroCuenta - usr11.dineroCuenta))
+console.log(usuarios.sort((usr11, usr12) => usr12.dineroCuenta - usr11.dineroCuenta))
